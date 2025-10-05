@@ -16,6 +16,9 @@ module.exports = {
           dark: '#400101',
         },
       },
+      fontfamily: {
+        sans: ['Arial', 'Helvetica', 'sans-serif'],
+      },
     },
   },
   plugins: [],
