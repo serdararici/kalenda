@@ -1,21 +1,57 @@
 @import "tailwindcss";
 
+@theme inline {
+  /* Mevcut değişkenler */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Kalenda renkleri */
+  --color-kalenda-bg: #F2F2F2;
+  --color-kalenda-primary: #63BFAE;
+  --color-kalenda-accent: #F27B35;
+  --color-kalenda-warning: #F2622E;
+  --color-kalenda-dark: #400101;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* A custom theme block, possibly processed by a tool like PostCSS or a design system */
+@theme {
+  /* Define a custom CSS variable that uses a keyframe animation */
+  --animate-fade-in: fade-in-scale 0.3s ease-out;
+
+  /* Define the keyframes for the "fade-in-scale" animation */
+  @keyframes fade-in-scale {
+    0% {
+      /* Start: slightly smaller and fully transparent */
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      /* End: fully visible and normal size */
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    /* Kalenda renkleri dark mode */
+    --color-kalenda-bg: #1a1a1a;
+    --color-kalenda-primary: #4FAF99;
+    --color-kalenda-accent: #F27B35; 
+    --color-kalenda-warning: #F2622E;
+    --color-kalenda-dark: #ffffff;
   }
 }
 

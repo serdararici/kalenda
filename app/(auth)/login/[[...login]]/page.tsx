@@ -7,13 +7,13 @@ export default function LoginPage() {
             <Image
                 src='/assets/logo.png'
                 alt='Kalenda Logo'
-                width={100}
-                height={100}
+                width={250}
+                height={250}
             />
 
             <div className="mt-3">
-                <SignIn/>
-                
+                <SignIn redirectUrl="/"/>
+
             </div>
 
         </main>
