@@ -1,4 +1,5 @@
 
+import PrivateNavBar from "@/components/PrivateNavBar"
 import PublicNavBar from "@/components/PublicNavBar"
 import { currentUser } from "@clerk/nextjs/server"
 
@@ -12,10 +13,8 @@ export default async function MainLayout({
 
     return (
         <main className="relative">
-            <PublicNavBar />
             {/* Render PrivateNavBar if user exists, otherwise PublicNavBar */}
-            {/* {user ? <PrivateNavBar /> : <PublicNavBar />} */}
-
+             {user ? <PrivateNavBar /> : <PublicNavBar />} 
 
             {/* Render the children */}
             <section className="pt-36 ">
