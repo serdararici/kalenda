@@ -13,15 +13,17 @@ A modern meeting scheduling platform that enables users to manage their availabi
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- 🔐 **Clerk ile Kimlik Doğrulama** – güvenli ve sorunsuz giriş/kayıt deneyimi  
-- 📅 **Google Takvim Entegrasyonu** – planlanan toplantılar otomatik olarak senkronize edilir  
-- ⏰ **Dinamik Müsaitlik Yönetimi** – kullanıcılar kendi uygun zaman aralıklarını tanımlayabilir  
-- 🧾 **Genel Planlama Sayfası** – ziyaretçiler üye olmadan toplantı rezervasyonu yapabilir  
-- 🧱 **Temiz Mimari** – modüler ve yeniden kullanılabilir bileşenler ile sürdürülebilir kod  
-- 💾 **NeonDB ve Drizzle ORM ile Veritabanı** – güvenilir ve şema tabanlı veri yönetimi sağlar  
-- 💅 **Modern ve Duyarlı Arayüz** – TailwindCSS ve Shadcn/UI ile geliştirilmiştir
+- 🔐 **Authentication with Clerk** – secure and seamless sign-in/sign-up experience  
+- 📅 **Google Calendar Integration** – automatically syncs booked meetings  
+- ⏰ **Dynamic Availability Management** – users can define their available time slots  
+- 🧾 **Public Scheduling Page** – visitors can book meetings without signing up  
+- 🧱 **Clean Architecture** – modular and reusable components for maintainable code  
+- 💾 **Database with NeonDB and Drizzle ORM** – reliable and schema-based data management  
+- 🧩 **Zod Integration for Form Validation** – ensures secure and type-safe user input  
+- 💅 **Modern and Responsive UI** – built with TailwindCSS and Shadcn/UI  
+- 🚀 **Deployment with Vercel** – allows fast and seamless full-stack application deployment
 
 ---
 
@@ -154,13 +156,15 @@ Kullanıcıların uygunluklarını yönetebildiği, genel randevu bağlantılar�
 
 ## 🚀 Özellikler
 
-- 🔐 **Clerk ile Kimlik Doğrulama** – güvenli giriş ve kayıt deneyimi  
+- 🔐 **Clerk ile Kimlik Doğrulama** – güvenli ve sorunsuz giriş/kayıt deneyimi  
 - 📅 **Google Takvim Entegrasyonu** – planlanan toplantılar otomatik olarak senkronize edilir  
 - ⏰ **Dinamik Müsaitlik Yönetimi** – kullanıcılar kendi uygun zaman aralıklarını tanımlayabilir  
 - 🧾 **Genel Planlama Sayfası** – ziyaretçiler üye olmadan toplantı rezervasyonu yapabilir  
-- 📬 **Onay Sayfası** – toplantı oluşturulduktan sonra görsel bir başarı ekranı gösterilir  
-- 🧱 **Temiz Mimari** – yeniden kullanılabilir, modüler bileşen yapısı  
+- 🧱 **Temiz Mimari** – modüler ve yeniden kullanılabilir bileşenler ile sürdürülebilir kod  
+- 💾 **NeonDB ve Drizzle ORM ile Veritabanı** – güvenilir ve şema tabanlı veri yönetimi sağlar  
+- 🧩 **Form Doğrulama için Zod Entegrasyonu** – kullanıcı girişlerini güvenli ve tip kontrollü hale getirir  
 - 💅 **Modern ve Duyarlı Arayüz** – TailwindCSS ve Shadcn/UI ile geliştirilmiştir  
+- 🚀 **Vercel ile Dağıtım (Deploy)** – full-stack uygulamaların hızlı ve sorunsuz bir şekilde yayına alınmasını sağlar
 
 ---
 
