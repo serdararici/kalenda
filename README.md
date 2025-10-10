@@ -3,6 +3,7 @@
 🌍 **README Languages:** [English](#kalenda-en) | [Türkçe](#kalenda-tr)
 
 ---
+<a id="kalenda-en"></a>
 
 # 🗓️ Kalenda (EN)
 
@@ -131,7 +132,7 @@ http://localhost:3000
 ## 💬 Contact
 
 👨‍💻 **Serdar Arıcı**  
-🌍 [LinkedIn](https://www.linkedin.com/in/serdar)  
+🌍 [LinkedIn](https://www.linkedin.com/in/serdar-ar%C4%B1c%C4%B1-9827981a3/)  
 💻 [GitHub](https://github.com/serdararici)  
 ✉️ **serdararici3@gmail.com**
 
@@ -141,6 +142,7 @@ Thank you for checking out **Kalenda App!** 🚀
 
 ---
 
+<a id="kalenda-tr"></a>
 
 # 🗓️ Kalenda (TR)
 
@@ -270,7 +272,7 @@ http://localhost:3000
 ## 💬 İletişim
 
 👨‍💻 **Serdar Arıcı**  
-🌍 [LinkedIn](https://www.linkedin.com/in/serdar)  
+🌍 [LinkedIn](https://www.linkedin.com/in/serdar-ar%C4%B1c%C4%B1-9827981a3/)  
 💻 [GitHub](https://github.com/serdararici)  
 ✉️ **serdararici3@gmail.com**
 
